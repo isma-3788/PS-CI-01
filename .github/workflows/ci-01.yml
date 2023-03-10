@@ -1,10 +1,10 @@
-on:
+on: 
   - push
 jobs:
-  build:
+  build:    
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Escribir texto
-      - run: |
+        run: |
           echo Este texto se escribe al ejecutar el workflow
